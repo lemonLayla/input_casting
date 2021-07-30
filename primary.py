@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: layla
+# date: 7/9/2021
 
 # -------------------- Section 1 -------------------- #
 
@@ -17,7 +17,9 @@
 #   deppe, elia
 #
 # ---- WRITE CODE BELOW ---- #
-
+first_name= input('first name : ')
+last_name = input('last name : ')
+print(last_name +' , ' + first_name)
 
 #   2. Pyramid
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
@@ -34,8 +36,12 @@
 #   $
 #
 # ---- WRITE CODE BELOW ---- #
-
-
+percent=input("character : ")
+print(percent)
+print(percent + percent)
+print(percent + percent + percent)
+print(percent + percent)
+print(percent)
 #   3. Parallelogram
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
 #       b. Using the symbol, create a pyramid like you see in the example output. (Think, how can you make
@@ -53,8 +59,14 @@
 #      @
 #
 # ---- WRITE CODE BELOW ---- #
-
-
+and_=input("character : ")
+print(and_)
+print(and_ + and_)
+print( and_+ and_ + and_ )
+print(and_ + and_+ and_ + and_)
+print(and_ + and_ + and_)
+print(and_ + and_)
+print(and_)
 # -------------------- Section 2 -------------------- #
 
 # Casting | Getting Integers and Floats from the User
@@ -76,8 +88,12 @@
 #   num3 (float) | 21322.4
 #
 # ---- WRITE CODE BELOW ---- #
-
-
+num1 = input('str : ')
+num2 = int(input('int : '))
+num3 = float(input('float :'))
+print(num1)
+print(num2)
+print(num3)
 # Objectives:
 #   2. Diameter of a Circle
 #       a. Prompt input from the user to enter a radius. Save this value to a
@@ -91,7 +107,8 @@
 #   diameter = 24.6
 #
 # ---- WRITE CODE BELOW ---- #
-
+num = input('num : ')
+print(num * 2)
 
 # Objectives:
 #   3. Area of a Circle
@@ -117,3 +134,14 @@
 #
 # Create a conversation with a faux (fake) AI, using input and print().
 # See the example in example.py
+
+name = input('hi im frogboy who are you? ')
+print('hi, ' + name + ', nice meeting you .\n')
+
+fun = input('what is your favorite thing to do for fun ? mine is watching frog videos  ')
+print(fun + ' that\'s fun if yor 10 lol just playing .\n')
+
+animal = input('do you have a favorite animal? ')
+print(animal + '? personally i don\'t really like them, but to each their own.\n')
+
+print('it was nice taking to you but i have to go now its time for my frog videos,\n')

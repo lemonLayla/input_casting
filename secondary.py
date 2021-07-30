@@ -36,8 +36,23 @@
 #           $
 #
 # ---- WRITE CODE BELOW ---- #
+s =input ('>>')
 
-
+print(
+    '' * 6 + s * 1 + '\n' +
+    '' * 5 + s * 3 + '\n' +
+    '' * 4 + s * 5 + '\n' +
+    '' * 3 + s * 7 + '\n' +
+    '' * 2 + s * 9 + '\n' +
+    '' * 1 + s * 11 + '\n' +
+    '' * 0 + s * 13 + '\n' +
+    '' * 1 + s * 11 + '\n' +
+    '' * 2 + s * 9 + '\n' +
+    '' * 3 + s * 7 + '\n' +
+    '' * 4 + s * 5 + '\n' +
+    '' * 5 + s * 3 + '\n' +
+    '' * 6 + s * 1 + '\n'
+)
 #   2. Framed Diamond
 #       a. Define a function that accept the parameters listed below.
 #           Name   | Type(s)         | Description
